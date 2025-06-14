@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+@theme{
+  --color-backgroundblack-500: #111111;
+  --color-secondaryblack-500: #161616;
+  --font-imperial:Imperial, "sans-serif";
+  --font-inter:Inter;
+}
+
+@font-face {
+  font-family:Imperial;
+  src: url("/src/assets/fonts/Imperial.otf");
+}
+
+body{
+  background-color: #111111;
+}
