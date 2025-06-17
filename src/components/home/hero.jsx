@@ -23,10 +23,10 @@ export default function Heros(){
             </div>
 
 
-            {/* Mobile desktop */}
-            <div className="md:hidden relative min-h-screen bg-black overflow-hidden">
+            {/* Mobile phone */}
+            <div className="md:hidden relative min-h-screen h-[60vh] overflow-hidden">
                 {/* Background Image */}
-                <div className="absolute inset-0">
+                <div className="absolute h-[90%] inset-0">
                     <img 
                         className="w-full h-full object-cover opacity-60" 
                         src={gangster}

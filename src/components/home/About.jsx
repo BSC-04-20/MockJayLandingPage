@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutLabel() {
   return (
-    <div className="min-h-screen font-inter bg-black text-white px-6 md:px-20 py-16">
+    <div className="min-h-screen font-inter bg-black text-white px-6 md:px-20 my-10 py-5">
       {/* Hero Section */}
       <section className="text-center mb-16">
         <h1 className="text-4xl md:text-5xl font-bold text-red-400 mb-4">About Mocking by Jay</h1>
