@@ -12,14 +12,14 @@ export default function Book() {
           <div className="flex flex-col flex-1 mb-3 sm:mb-0">
             <label>Date</label>
             <input
-              className="py-2 px-2 rounded border border-red-100"
+              className="py-2 w-full px-2 rounded border border-red-100"
               type="date"
             />
           </div>
           <div className="flex flex-col flex-1">
             <label>Time</label>
             <input
-              className="py-2 px-2 rounded border border-red-100"
+              className="py-2 w-full px-2 rounded border border-red-100"
               type="time"
             />
           </div>
@@ -34,7 +34,7 @@ export default function Book() {
           />
         </div>
 
-        <button className="bg-red-400 w-full py-2 mt-3 rounded text-white">
+        <button className="bg-red-500 hover:bg-red-700 w-full py-2 mt-3 rounded text-white">
           Submit
         </button>
       </div>

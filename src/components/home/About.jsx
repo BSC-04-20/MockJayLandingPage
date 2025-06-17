@@ -31,15 +31,15 @@ export default function AboutLabel() {
       <section className="mt-16">
         <h2 className="text-2xl text-red-400 font-semibold mb-8 text-center">The Culture</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="bg-gray-900 rounded-lg p-4 hover:bg-slate-800 transition">
+          <div className="bg-secondaryblack-500 rounded-lg p-4 hover:bg-slate-800 transition">
             <h3 className="text-white text-xl font-bold mb-2">Diverse Talent</h3>
             <p className="text-sm text-gray-300">From street poets to trap kings — every artist has a voice that’s uniquely theirs.</p>
           </div>
-          <div className="bg-gray-900 rounded-lg p-4 hover:bg-slate-800 transition">
+          <div className="bg-secondaryblack-500 rounded-lg p-4 hover:bg-slate-800 transition">
             <h3 className="text-white text-xl font-bold mb-2">Creative Freedom</h3>
             <p className="text-sm text-gray-300">Artists aren’t boxed. They’re launched into limitless sound and style.</p>
           </div>
-          <div className="bg-gray-900 rounded-lg p-4 hover:bg-slate-800 transition">
+          <div className="bg-secondaryblack-500 rounded-lg p-4 hover:bg-slate-800 transition">
             <h3 className="text-white text-xl font-bold mb-2">Global Vision</h3>
             <p className="text-sm text-gray-300">We're not just a local label — we’re building the future of rap worldwide.</p>
           </div>
