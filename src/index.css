@@ -13,6 +13,10 @@
   src: url("/src/assets/fonts/Imperial.otf");
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   background-color: #111111;
   font-family: Imperial;

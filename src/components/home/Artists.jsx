@@ -92,7 +92,7 @@ const NextArrow = ({ className, onClick }) => {
     <div
       onClick={onClick}
       className={`${className} !absolute !top-1/2 !-translate-y-1/2 !right-[-40px]
-      !z-50 !bg-[#ff4245] hover:!bg-[#f84848]
+      !z-40 !bg-[#ff4245] hover:!bg-[#f84848]
       !rounded-full !w-[45px] !h-[45px]
       !flex !items-center !justify-center`}
     >
@@ -106,7 +106,7 @@ const PrevArrow = ({ className, onClick }) => {
     <div
       onClick={onClick}
       className={`${className} !absolute !top-1/2 !-translate-y-1/2 !left-[-40px]
-      !z-50 !bg-[#ff4245] hover:!bg-[#f84848]
+      !z-40 !bg-[#ff4245] hover:!bg-[#f84848]
       !rounded-full !w-[45px] !h-[45px]
       !flex !items-center !justify-center`}
     >
