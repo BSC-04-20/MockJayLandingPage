@@ -44,8 +44,8 @@ export default function Heros(){
                             We're more than a label. We're a movement driven by passion and hustle.
                         </p>
                         <div className="flex flex-col gap-2.5 sm:gap-5 sm:flex-row mt-5">
-                            <button className="text-gray-200 sm:w-full hover:bg-red-700 bg-red-500 px-10 py-2 rounded">Artists</button>
-                            <button className="bg-gray-950 sm:w-full hover:bg-gray-800 border border-red-500 text-gray-200 px-10 py-2 rounded">Book</button>
+                            <a href="#artists" className="text-gray-200 sm:w-full hover:bg-red-700 bg-red-500 px-10 py-2 rounded">Artists</a>
+                            <a href="#book" className="bg-gray-950 sm:w-full hover:bg-gray-800 border border-red-500 text-gray-200 px-10 py-2 rounded">Book</a>
                         </div>
                     </div>
                 </div>
